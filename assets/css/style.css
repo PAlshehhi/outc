@@ -200,7 +200,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #e0a901/*#2487ce*/;
+  color: #2487ce;
 }
 
 .navbar .getstarted,
@@ -1378,7 +1378,6 @@ section {
   font-weight: 400;
   padding: 5px;
   font-size: 18px;
-  text-transform: uppercase;
   font-weight: 600;
   color: #124265;
 }
@@ -1430,7 +1429,8 @@ section {
   display: inline-block;
   padding: 10px 40px;
   border-radius: 4px;
-  color: #E03B30;
+  background: #E03B30;
+  color: #fff;
   transition: none;
   font-size: 14px;
   font-weight: 400;
@@ -1444,7 +1444,8 @@ section {
   display: inline-block;
   padding: 10px 40px;
   border-radius: 4px;
-  color: rgb(59 130 246);
+  color: #fff;
+  background: rgb(59 130 246);
   transition: none;
   font-size: 14px;
   font-weight: 400;
@@ -1458,7 +1459,8 @@ section {
   display: inline-block;
   padding: 10px 40px;
   border-radius: 4px;
-  color: #FABA09;
+  color: #fff;
+  background: #FABA09;
   transition: none;
   font-size: 14px;
   font-weight: 400;
@@ -1470,18 +1472,18 @@ section {
 
 
 .pricing .box .btn-buy-r:hover {
-  background: #E03B30;
-  color: #fff;
+  background: #fff; 
+  color: #E03B30;
 }
 
 .pricing .box .btn-buy-s:hover {
-  background: rgb(59 130 246);
-  color: #fff;
+  background: #fff;
+  color: rgb(59 130 246);
 }
 
 .pricing .box .btn-buy-g:hover {
-  background: #FABA09;
-  color: #fff;
+  background: #fff;
+  color: #FABA09;
 }
 
 .pricing .featured {
