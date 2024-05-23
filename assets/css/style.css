@@ -500,6 +500,18 @@ h6 {
   color: #2487ce;
 }
 
+.hero-box {
+    background-color: rgb(219 234 254);
+    padding: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
