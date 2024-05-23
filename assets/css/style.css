@@ -15,15 +15,16 @@ body {
 }
 
 a {
-  color: #e0a901;
-    /* #2487ce*/ 
+  color:#2487ce ;
+    
   
   text-decoration: none;
 }
 
 a:hover {
-  color: #469fdf;
+  color: #e0a901;
   text-decoration: none;
+  /* #469fdf*/ 
 }
 
 h1,
