@@ -502,28 +502,23 @@ h6 {
     
 }
 
-.button-R {
-  background: linear-gradient(140.14deg, #ec540e 15.05%, #d6361f 114.99%)
-      padding-box,
-    linear-gradient(142.51deg, #ff9465 8.65%, #af1905 88.82%) border-box;
-  border-radius: 7px;
-  border: 2px solid transparent;
-
-  text-shadow: 1px 1px 1px #00000040;
-  box-shadow: 8px 8px 20px 0px #45090059;
-
+.button-R{
+  display: inline-block;
   padding: 10px 40px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: all 0.3s;
-  color: white;
-  font-size: 18px;
-  font-weight: 500;
+  border-radius: 4px;
+  color: #fff;
+  background: rgb(59 130 246);
+  transition: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 2px solid rgb(59 130 246);
 }
-
 .button-R:hover {
-  box-shadow: none;
-  opacity: 80%;
+  background: #fff;
+  color: rgb(59 130 246);
 }
 
 
@@ -1470,7 +1465,6 @@ section {
   transition: 0.3s;
   border: 2px solid #E03B30;
 }
-
 .pricing .box .btn-buy-s{
   display: inline-block;
   padding: 10px 40px;
@@ -1485,7 +1479,6 @@ section {
   transition: 0.3s;
   border: 2px solid rgb(59 130 246);
 }
-
 .pricing .box .btn-buy-g{
   display: inline-block;
   padding: 10px 40px;
