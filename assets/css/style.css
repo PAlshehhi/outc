@@ -755,12 +755,11 @@ section {
 .bbuton {
   background-color: rgb(59 130 246);
   color: #ffffff;
-  border: none;
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
-  
+  border: 2px solid rgb(59 130 246);
 }
 .bbuton:hover {
   background: #fff;
