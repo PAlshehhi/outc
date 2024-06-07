@@ -501,8 +501,13 @@ h6 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     
 }
+.btn-R{
+  display: grid;
+  place-items: center;
+}
 
 .button-R{
+  margin-top: 20px;
   display: inline-block;
   padding: 10px 40px;
   border-radius: 4px;
