@@ -415,218 +415,75 @@ section {
     color: #919191;
   }
 
-  /*------------------------------------------------------------
-  #big box
-  -----------------------------------------------------------*/
-  #big-box{
-    margin-top: 80px;
-    width: 100%;
-    position: relative;
-    background: url("../img/hero-bg.jpg") top center;
-    background-size: cover;
-  }
+/*--------------------------------------------------------------
+# Workshops 
+--------------------------------------------------------------*/
 
-  #big-box:before {
-    content: "";
-    background: rgba(255, 255, 255, 0.8);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
+.title{
+  margin-top: 150px;
+  margin-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
 
+}
+
+.side-title{
+  text-align: start !important;
+  align-self: start !important;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+
+.box-container{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  justify-content: center;
   
-
-.header {
-    font-size: 2em;
-    margin-bottom: 20px;
 }
 
-.event-box {
-    display: flex;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    background-color: #fff;
-    flex-direction: column;
-}
+.box{
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
 
-@media (min-width: 768px) {
-    .event-box {
-        flex-direction: row-reverse;
-    }
-}
-
-.event-details {
-    flex: 1;
-    padding: 20px;
-}
-
-.event-details h2 {
-    font-size: 1.5em;
-    margin: 0 0 10px 0;
-    color: #1a73e8;
-}
-
-.event-details p {
-    margin: 10px 0;
-    color: #555;
-}
-
-.event-details a {
-    color: #1a73e8;
-    text-decoration: none;
-}
-
-.event-details button {
-    background-color: #1a73e8;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.event-details button:hover {
-    background-color: #1558b0;
-}
-
-.event-image {
-    flex: 1;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.event-image img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-}
-
-
-  /*------------------------------------------------------------
-  # event box
-  ---------------------------------------------------------------*/
-
-  #event {
-    /* padding-top: 200px; */
-    width: 100%;
-    /* height: 100vh; */
-    position: relative;
-    background: url("../img/hero-bg.jpg") top center;
-    background-size: cover;
-    position: relative;
-  }
+  border: 1px solid gray;
+  margin: 30px 0px;
+  flex-direction: row;
   
-  #event:before {
-    content: "";
-    background: rgba(255, 255, 255, 0.8);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-  #event h2{
-    padding: 20px;
-  }
-
-  #event .container {
-    display: flex;
-    flex-wrap: wrap;
-    /* row-gap: 20px;
-    column-gap: 40px; */
-    justify-content: center;
-    }
-
-  #event .box {
-    display: flex;
-    position: relative;
-    overflow: hidden;
-    background: #fff;
-    box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
-    transition: all 0.3s ease-in-out;
-    border-radius: 8px;
-    z-index: 1;
-
-    border: 1px solid gray;
-    margin: 50px 30px;
-    flex-direction: column;
-  }
-
-  /* .box:hover {
-    transform: scale(1.08);
-  } */
+}
 
 .box-photo{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  width: 60%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .box-photo img{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .box-content{
-    padding: 10px;
-    flex-grow: 1;
+  width: 40%;
+  align-content: center;
+  margin-left: 5%;
+  padding: 10px;
+  flex-grow: 1;
 }
 
-.box-content h3{
-    color: rgb(26 115 232);
-}
-
-.box-content p{
-    margin: 10px;
-}
-
-.box-btn{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-.box-btn button{
-    position: relative;
-    border: 2px solid rgb(59 130 246);
-    border-radius: 5px;
-    color: rgb(59 130 246);
-    background-color: white;
-    padding: 10px 40px;
-    transition: .4s ease-in;
-    z-index: 1;
-}
-
-.box-btn button::before,
-.box-btn button::after{
-    position: absolute;
-    content: "";
-    z-index: -1;
-}
-
-.box-btn button:hover{
-    color: white;
-    background-color: #2487ce;
-    box-shadow: 0 0 5px #2487ce,
-    0 0 25px #2487ce, 0 0 50px #2487ce,
-    0 0 200px #2487ce;
-}
-
-  /*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
