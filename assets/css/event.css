@@ -508,6 +508,10 @@ body{
   font-weight: bold !important;
 }
 
+.box-content li i{
+    margin-right: 10px;
+}
+
 button {
   margin-top: 20px;
   margin-right: 30px;
