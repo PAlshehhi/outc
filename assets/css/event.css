@@ -24,7 +24,7 @@ body {
   h4,
   h5,
   h6 {
-    font-family: "Raleway", sans-serif;
+    font-family: Monrope;
   }
   
   /*--------------------------------------------------------------
@@ -438,8 +438,8 @@ body{
 .side-title{
   text-align: start !important;
   align-self: start !important;
-  font-size: 20px;
-  margin-bottom: 50px;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 
 
